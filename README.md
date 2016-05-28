@@ -1,6 +1,6 @@
-# uptime
+# vuejs-webpack-extended
 
-> A Vue.js project
+> An extended version of [vuejs-templates/webpack](https://github.com/vuejs-templates/webpack) which includes [vuex](https://github.com/vuejs/vuex), [vue-router](https://github.com/vuejs/vue-router) and [vue-resource](https://github.com/vuejs/vue-resource).
 
 ## Build Setup
 

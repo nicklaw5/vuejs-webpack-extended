@@ -12,7 +12,7 @@ Vue.use(Vuex)
 Vue.use(VueRouter)
 Vue.use(VueResource)
 
-var router = new VueRouter()
+let router = new VueRouter()
 
 router.map({
     '/': {

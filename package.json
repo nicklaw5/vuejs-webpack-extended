@@ -1,9 +1,8 @@
 {
-  "name": "uptime",
-  "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "Nick Law <nick@nicholaslaw.com.au>",
-  "private": true,
+  "name": "vuejs-webpack-extended",
+  "version": "0.0.1",
+  "description": "An extended version of vuejs-templates/webpack which includes vuex, vue-router and vue-resource.",
+  "author": "https://github.com/nicklaw5",
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
@@ -17,8 +16,7 @@
     "vue": "^1.0.24",
     "vue-router": "^0.7.13",
     "vuex": "^0.6.3",
-    "vue-resource": "^0.7.2",
-    "vuex-router-sync": "^1.0.0"
+    "vue-resource": "^0.7.2"
   },
   "devDependencies": {
     "babel-core": "^6.0.0",
