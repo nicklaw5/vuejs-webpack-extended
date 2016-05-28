@@ -1,5 +1,5 @@
-import * as types from '../mutation-types'
+import { SET_TEST_TEXT } from '../mutation-types'
 
 export const setTestText = (store, text) => {
-	store.dispatch(types.SET_TEST_TEXT, text)
+	store.dispatch(SET_TEST_TEXT, text)
 }

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import app from './app/store'
-import createLogger from './logger'
+import createLogger from './mutation-logger'
 
 Vue.use(Vuex)
 Vue.config.debug = true
