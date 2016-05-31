@@ -1,6 +1,7 @@
 {
   "name": "vuejs-webpack-extended",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "An extended version of vuejs-templates/webpack which includes vuex, vue-router and vue-resource.",
   "author": "https://github.com/nicklaw5",
   "scripts": {

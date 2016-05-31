@@ -10,7 +10,6 @@
 
 <script>
 import store from './vuex/store'
-// import Hello from './components/Hello'
 
 // example getter
 import { getTestText } from './vuex/app/getters'

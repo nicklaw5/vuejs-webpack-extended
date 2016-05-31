@@ -15,18 +15,18 @@ Vue.use(VueResource)
 let router = new VueRouter()
 
 router.map({
-    '/': {
-        name: 'index',
-        component: Index
-    },
-    '/foo': {
-        name: 'foo',
-        component: Foo
-    },
-    '/bar': {
-        name: 'bar',
-        component: Bar
-    },
+  '/': {
+      name: 'index',
+      component: Index
+  },
+  '/foo': {
+      name: 'foo',
+      component: Foo
+  },
+  '/bar': {
+      name: 'bar',
+      component: Bar
+  },
 })
 
 router.start(App, 'app')
