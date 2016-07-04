@@ -3,7 +3,7 @@
     <h1>{{ msg }}</h1>
     <p><b>Text:</b> {{ getTestText }}</p>
     <input type="text" v-model="text" @keyup.enter="setTestText(text)">
-    <button @click="setTestText(text)"> Change text</button>
+    <button @click="setTestText(text)">Change text</button>
   </div>
 </template>
 
@@ -17,7 +17,7 @@ import { setTestText  } from '../vuex/app/actions'
 export default {
   data () {
     return {
-      // note: changing this line won't causes changes
+      // note: changing this line won't cause changes
       // with hot-reload because the reloaded component
       // preserves its current state and we are modifying
       // its initial state.
